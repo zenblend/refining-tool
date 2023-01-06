@@ -1,0 +1,11 @@
+#footer {
+    height: 25px;
+    background-color: yellow;
+    margin-top: auto;
+}
+
+#footer-copyright {
+    margin: 0;
+    padding: 0;
+    color: black;
+}

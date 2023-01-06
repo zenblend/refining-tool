@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: fit-content;
+  color: white;
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+#root {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+}
