@@ -1,0 +1,16 @@
+#header {
+    background-color: blue;
+    margin-top: 0;
+    border-bottom: solid black 4px;
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#header-image {}
+
+#header-container {}
+
+#header-title {}

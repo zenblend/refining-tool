@@ -1,7 +1,10 @@
 #footer {
-    height: 25px;
+    min-height: fit-content;
     background-color: yellow;
     margin-top: auto;
+    padding: .5rem 0;
+    width: 100%;
+    text-align: center;
 }
 
 #footer-copyright {

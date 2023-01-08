@@ -1,0 +1,16 @@
+#sidebar {
+    border-right: solid black 4px;
+    width: calc(30% - 2rem);
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (width < 800px) {
+    #sidebar {
+        width: calc(100% - 2rem);
+        border-right: none;
+        border-bottom: solid black 4px;
+        min-height: fit-content;
+    }
+}

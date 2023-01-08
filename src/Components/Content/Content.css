@@ -1,4 +1,12 @@
 #content {
+    display: flex;
     background-color: blue;
     flex-grow: 1;
+}
+
+@media (width < 800px) {
+    #content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
