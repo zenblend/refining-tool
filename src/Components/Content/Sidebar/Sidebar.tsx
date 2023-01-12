@@ -1,12 +1,11 @@
 import Dropdown from './Dropdown/Dropdown'
 import './Sidebar.css'
 
-export default function Sidebar() {
+export default function Sidebar(props: any) {
     return (
         <>
             <div id="sidebar">
-                <Dropdown />
-                <button>GO!</button>
+                <Dropdown handleChange={props.handleChange} />
             </div>
         </>
     )

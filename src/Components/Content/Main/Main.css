@@ -1,4 +1,5 @@
 #main {
+    max-width: 100%;
     min-width: fit-content;
     width: 100%;
     background-color: orange;

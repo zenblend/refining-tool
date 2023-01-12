@@ -1,0 +1,18 @@
+#ingredient {
+    display: flex;
+    max-width: 100%;
+    margin: auto 10px;
+    flex-grow: .10;
+}
+
+.ingredient-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    min-width: 0;
+}
+
+.ingredient-quantity {
+    margin-left: 5px;
+    white-space: nowrap;
+}

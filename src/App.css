@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  min-width: fit-content;
   max-width: 1000px;
   background-color: pink;
 }

@@ -1,11 +1,11 @@
 import './Dropdown.css'
 
-export default function Dropdown() {
+export default function Dropdown(props: any) {
     return (
         <>
             <div id="dropdown">
-                <select id="dropdown-select">
-                    <option className={'dropdown-option'} disabled selected hidden>Select Material</option>
+                <select id="dropdown-select" onChange={(e) => props.handleChange(e.target.value)}>
+                    <option className={'dropdown-option'} hidden defaultChecked>Select Material</option>
                     <option className={'dropdown-option'} value={'Starmetal'}>Starmetal</option>
                     <option className={'dropdown-option'} value={'Orichalcum'}>Orichalcum</option>
                 </select>

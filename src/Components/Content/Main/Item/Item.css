@@ -2,11 +2,13 @@
     background-color: teal;
     min-height: fit-content;
     height: 200px;
-    width: 80%;
+    width: 85%;
+    max-width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     border: solid black;
     border-width: 0px 4px 4px 4px;
+    gap: 15px;
 }
