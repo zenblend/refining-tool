@@ -15,6 +15,10 @@ export type Target = {
 
 export const targets: Target[] = [
     {
+        headerTitle: 'Orichalcum',
+        headerImage: '/src/Images/orichalcum_ingot.png'
+    },
+    {
         headerTitle: 'Starmetal',
         headerImage: '/src/Images/starmetal_ingot.png'
     },
@@ -29,6 +33,13 @@ export const targets: Target[] = [
 ]
 
 export const recipes: Recipe[] = [
+    {
+        title: 'Orichalcum',
+        ingredients: [
+            { image: '/src/Images/starmetal_ingot.png', quantity: 2 },
+            { image: '/src/Images/orichalcum_ore.png', quantity: 8 }
+        ]
+    },
     {
         title: 'Starmetal',
         ingredients: [

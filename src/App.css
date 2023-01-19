@@ -7,6 +7,10 @@ body {
   background-color: rgb(36, 35, 35);
 }
 
+img {
+  border-radius: 5%;
+}
+
 #root {
   box-sizing: border-box;
   font-family: arial;

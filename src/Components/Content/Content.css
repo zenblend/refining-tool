@@ -1,7 +1,13 @@
 #content {
     display: flex;
-    background-color: blue;
+    background-color: rgb(3, 37, 59);
     flex-grow: 1;
+}
+
+#loading {
+    margin: 5% auto;
+    width: 50%;
+    text-align: center;
 }
 
 @media (width < 800px) {

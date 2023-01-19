@@ -5,10 +5,15 @@ import Sidebar from './Sidebar/Sidebar'
 
 export default function Content() {
     const [material, setMaterial] = useState<string>('')
-    console.log('content rendered and mat is ', material)
+    const [globalQuantity, setGlobalQuantity] = useState<number>(0)
 
     const handleChange = (e: string) => {
         setMaterial(e)
+    }
+
+    const handleSubmit = (quant: number) => {
+        setGlobalQuantity(quant)
+        console.log('quant is ', quant)
     }
 
     return (
@@ -16,10 +21,12 @@ export default function Content() {
             <div id="content">
                 <Sidebar handleChange={handleChange} />
                 {material &&
-                    <Main material={material} />
+                    <Main material={material} handleSubmit={handleSubmit} globalQuant={globalQuantity} />
                 }
                 {!material &&
-                    <h1>Loading...</h1>
+                    <h1 id="loading">
+                        Select the final product you would like to craft
+                    </h1>
                 }
 
             </div>
