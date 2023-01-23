@@ -4,7 +4,12 @@ body {
   min-height: fit-content;
   color: white;
   height: 100%;
-  background-color: rgb(36, 35, 35);
+  background-color: black;
+  min-width: 360px;
+}
+
+html {
+  min-width: 360px;
 }
 
 img {
@@ -21,7 +26,11 @@ img {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  min-width: fit-content;
+  min-width: 360px;
   max-width: 1000px;
-  background-color: pink;
+  width: 100%;
+  background-image: url('./Images/smelting-1200x628-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

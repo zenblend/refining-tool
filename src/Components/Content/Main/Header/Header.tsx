@@ -15,8 +15,17 @@ export default function Header(props: any) {
             <div id="header-container">
                 <h1 id="header-title">{props.title} Ingot</h1>
                 <div id="header-input-container">
-                    <input type="text" id="header-input" onChange={(e) => handleChange(e.target.value)} value={headerQuantity} />
-                    <button id="header-input-button" onClick={() => props.handleSubmit(headerQuantity)}>GO!</button>
+                    <input
+                        type="text"
+                        id="header-input"
+                        maxLength={6}
+                        onChange={(e) => handleChange(e.target.value)}
+                        value={headerQuantity}
+                    />
+                    <button
+                        id="header-input-button"
+                        onClick={() => props.handleSubmit(headerQuantity)}
+                    >Calculate</button>
                 </div>
             </div>
         </div>

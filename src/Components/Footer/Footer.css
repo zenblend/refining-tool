@@ -1,6 +1,6 @@
 #footer {
     min-height: fit-content;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     margin-top: auto;
     padding: .5rem 0;
     width: 100%;

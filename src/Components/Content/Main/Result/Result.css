@@ -1,0 +1,30 @@
+#result {
+    margin: 0 auto;
+}
+
+#orichalcum {
+    background-color: rgb(163, 48, 6);
+    padding: .5rem;
+    border: solid rgb(212, 119, 31) 4px;
+    border-radius: 10%;
+}
+
+#starmetal {
+    background-color: rgb(9, 5, 61);
+    padding: .5rem;
+    border: solid rgb(2, 2, 107) 4px;
+    border-radius: 10%;
+}
+
+#iron {
+    background-color: rgb(63, 56, 56);
+    padding: .5rem;
+    border: solid rgb(117, 112, 112) 4px;
+    border-radius: 10%;
+}
+
+@media (width < 800px) {
+    #result {
+        font-size: .8rem;
+    }
+}

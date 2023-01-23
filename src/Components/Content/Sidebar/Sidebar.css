@@ -1,7 +1,6 @@
 #sidebar {
 
     width: calc(30% - 2rem);
-    background-color: black;
     text-align: center;
     padding: 1rem;
 }

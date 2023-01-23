@@ -13,6 +13,7 @@ export default function Main(props: any) {
     const globalQuant = props.globalQuant
 
     const MotionItem = motion(Item)
+    const MotionResult = motion(Result)
 
     const [items, setItems] = useState<ReactElement[]>([])
     const [target, setTarget] = useState<Target>({
@@ -56,7 +57,13 @@ export default function Main(props: any) {
                     <>
                         <Header image={target.headerImage} title={target.headerTitle} handleSubmit={handleSubmit} />
                         {items}
-                        <Result quantity={globalQuant} title={target.headerTitle} />
+                        <MotionResult
+                            quantity={globalQuant}
+                            title={target.headerTitle}
+                            initial={{ scale: 0 }}
+                            animate={{ scale: 1 }}
+                            transition={{ type: 'tween', duration: 1.75 }}
+                        />
                     </>
                 }
                 {!target && <h1>Loading...</h1>}

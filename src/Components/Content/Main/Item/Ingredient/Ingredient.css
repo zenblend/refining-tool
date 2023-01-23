@@ -9,13 +9,15 @@
 
 .ingredient-img {
     height: auto;
-    margin: auto;
-    min-width: 50px;
-    max-width: 75px;
-    width: 80%;
+    min-width: 30px;
+    max-width: 85px;
+    width: 100%;
 }
 
 .ingredient-quantity {
     margin-left: 5px;
     white-space: nowrap;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
 }

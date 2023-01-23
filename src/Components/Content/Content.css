@@ -1,6 +1,6 @@
 #content {
     display: flex;
-    background-color: rgb(3, 37, 59);
+    background-color: rgba(0, 0, 0, 0.85);
     flex-grow: 1;
 }
 

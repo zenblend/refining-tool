@@ -1,13 +1,13 @@
 #item {
-    background-color: rgb(19, 59, 19);
+    background-image: url('/src/Images/paper-background-parchment-stains.jpg');
     min-height: fit-content;
     height: 100px;
-    width: 75%;
-    max-width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
     border-bottom: solid black 3px;
     z-index: 0;
+    min-width: fit-content;
 }
